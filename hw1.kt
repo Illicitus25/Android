@@ -1,6 +1,8 @@
 fun main(){
-    val cost=10000
-    val membership=false
+    println("Enter Total Cost")
+    val cost= readLine()!!.toInt()
+    println("Membership? true: false")
+    val membership= readLine()!!.toBoolean()
     var discount:Double=0.0
     if(membership) {
         if (cost > 8000) {
