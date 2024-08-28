@@ -20,6 +20,7 @@ class Person
 fun main(){
     val person = Person()
     greet()
+    person.name=" John who "
     person.displayInfo()
     person.calc()
     println("")

@@ -52,9 +52,7 @@ fun main(){
     }
     println()
     //do while
-    do {
-        println("meow")
-    }
+
     /* Homework: 1)Calculator using when
                  2)Using loop add even and odd numbers of an array
                  3)implement all operators
