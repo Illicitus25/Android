@@ -227,7 +227,11 @@
         tools:layout_editor_absoluteY="687dp" />
 
     <ImageButton
+<<<<<<< HEAD
         android:id="@+id/imageButton7"
+=======
+        android:id="@+id/call"
+>>>>>>> badfaa9 (Git Commit)
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="#84B1D2"
