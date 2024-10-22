@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/search"
+    android:title="search"
+    android:icon="@drawable/search"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/itema"
+                android:title="Item A"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/itemb"
+                android:title="Item B"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/itemc"
+                android:title="Item C"
+                app:showAsAction="never"
+                />
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/aboutus"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        />
+
+
+</menu>
