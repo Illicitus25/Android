@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Default strings.xml -->
+    <resources>
+        <string name="app_name">My App</string>
+        <string name="hello_world">dhinkachika po</string>
+    </resources>

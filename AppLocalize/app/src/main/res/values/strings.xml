@@ -1,0 +1,6 @@
+<!-- Default strings.xml -->
+<resources>
+    <string name="app_name">My App</string>
+    <string name="hello_world">hello_world</string>
+</resources>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ca2</string>
+    <string name="name">Enter Name</string>
+    <string name="number">Number of People</string>
+    <string name="date">Enter Date</string>
+    <string name="table">Reserve a Table</string>
+    <string name="changelang">Change Language</string>
+    <string name="submit">Submit</string>
+    <string name="english">English</string>"
+    <string name="hindi">Hindi</string>
+    <string name="french">French</string>
+</resources>

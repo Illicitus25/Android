@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सीए2</string>
+    <string name="name">नाम दर्ज करें</string>
+    <string name="number">लोगों की संख्या</string>
+    <string name="date">तारीख दर्ज करें</string>
+    <string name="table">टेबल बुक करें</string>
+    <string name="changelang">भाषा बदलें</string>
+    <string name="submit">सबमिट करें</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिंदी</string>
+    <string name="french">फ्रेंच</string>
+</resources>
