@@ -1,0 +1,192 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="North Indian Recipes"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/heading"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Flashcard 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flash1"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="48dp"
+        android:elevation="4dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="center"
+        android:background="@color/offwhite">
+
+        <!-- Flashcard Image -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/butterchicken"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Flashcard Content -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/recipe_title_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Butter Chicken"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/recipe_description_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A rich and creamy chicken dish cooked in a spiced tomato-based gravy."
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/rating1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★★★★★"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flash2"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="48dp"
+        android:elevation="4dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="center"
+        android:background="@color/offwhite">
+
+        <!-- Flashcard Image -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/roganjosh"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Flashcard Content -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/recipe_title_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rogan Josh"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/recipe_description_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A traditional Kashmiri curry made with tender lamb, spices, and a rich, flavorful gravy."
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/rating2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★★★☆☆"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flash3"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="center"
+        android:background="@color/offwhite">
+
+        <!-- Flashcard Image -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paneertikka"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Flashcard Content -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/recipe_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Tikka"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/recipe_description_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marinated paneer cubes grilled or baked until perfectly charred, making for a delicious vegetarian starter."
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/rating3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="★★★★☆"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

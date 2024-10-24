@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contactUs"
+    android:background="@color/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="@color/heading"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/offwhite"
+        android:padding="16dp"
+        android:text="Welcome to FlavorFolio, your personal guide to exploring and creating delicious recipes from around the world! Whether you're a seasoned chef or just starting in the kitchen, FlavorFolio brings you a vast collection of recipes tailored to your tastes, preferences, and cooking style.
+
+With an easy-to-use interface, you can discover new dishes, save your favorites, and even create personalized recipe collections. From quick weeknight meals to gourmet feasts, FlavorFolio makes cooking fun, accessible, and inspiring for everyone.
+
+At FlavorFolio, we believe great food is meant to be shared and savored. Join our community of food lovers and start your culinary adventure today!"
+        android:textColor="@color/heading"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FindRecipe" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/heading</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/offwhite</item>
+        <item name="colorSecondaryVariant">@color/bg</item>
+
+        <!-- Background and Surface -->
+        <item name="android:colorBackground">@color/flashbg</item>
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/heading</item>
+
+        <!-- Status Bar and Navigation Bar -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/heading</item>
+
+        <!-- Other customizable attributes -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="Theme.FindRecipe" parent="Base.Theme.FindRecipe" />
+</resources>

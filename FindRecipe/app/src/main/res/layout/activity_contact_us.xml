@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg"
+    android:id="@+id/main">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:textStyle="bold"
+        android:background="@color/heading"
+        android:textColor="@color/white"/>
+
+    <!-- Contact Info Section -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:background="@color/offwhite"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For support, reach out to us at:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingBottom="8dp" />
+
+        <!-- Email Info -->
+        <TextView
+            android:id="@+id/email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="support@yourapp.com"
+            android:textSize="16sp"
+            android:textColor="@color/heading"
+            android:paddingBottom="16dp" />
+
+        <!-- Phone Info -->
+        <TextView
+            android:id="@+id/phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1 (123) 456-7890"
+            android:textSize="16sp"
+            android:textColor="@color/heading"
+            android:paddingBottom="16dp" />
+
+        <!-- Address Info -->
+        <TextView
+            android:id="@+id/address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123 App Street, Suite 100, City, Country"
+            android:textSize="16sp"
+            android:textColor="@color/heading" />
+
+    </LinearLayout>
+</LinearLayout>

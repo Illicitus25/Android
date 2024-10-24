@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/viewRecipe"
+        android:title="View Recipes"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/northIndian"
+                android:title="North Indian Cuisine"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/southIndian"
+                android:title="South Indian Cuisine"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/thaiDish"
+                android:title="Thai Dishes"
+                app:showAsAction="never"
+                />
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/aboutus"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        />
+
+
+</menu>
