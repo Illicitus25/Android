@@ -88,6 +88,7 @@ class Thai : AppCompatActivity() {
         menuInflater.inflate(R.menu.actionbar, menu)
         return true
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.home -> {
@@ -115,12 +116,14 @@ class Thai : AppCompatActivity() {
             }
 
             R.id.aboutus -> {
-                Toast.makeText(this, "About Us", Toast.LENGTH_SHORT).show()
+                val intent=Intent(this, AboutUs::class.java)
+                startActivity(intent)
                 return true
             }
 
             R.id.contactus -> {
-                Toast.makeText(this, "Contact Us", Toast.LENGTH_SHORT).show()
+                val intent=Intent(this,contactUs::class.java)
+                startActivity(intent)
                 return true
             }
 
