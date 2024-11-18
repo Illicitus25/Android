@@ -94,21 +94,29 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {
-//        val view:View=findViewById(R.id.main)
-//        val snackbar = Snackbar.make(view, "Do you want to exit?", Snackbar.LENGTH_LONG)
-//        snackbar.setAction("Yes") {
-//            finishAffinity()
-//        }
-//        snackbar.show()
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Exit")
             builder.setMessage("Do you want to exit?")
             builder.setPositiveButton("Yes") { _, _ ->
-                finishAffinity() // Close the app
+                finishAffinity()
             }
             builder.setNegativeButton("No") { dialog, _ ->
-                dialog.dismiss() // Dismiss the dialog
+                dialog.dismiss()
             }
+
+        val dialog = builder.create()
+        dialog.show()
+    }
+    private fun closeApp(){
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Exit")
+        builder.setMessage("Do you want to exit?")
+        builder.setPositiveButton("Yes") { _, _ ->
+            finishAffinity()
+        }
+        builder.setNegativeButton("No") { dialog, _ ->
+            dialog.dismiss()
+        }
 
         val dialog = builder.create()
         dialog.show()
