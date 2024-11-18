@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
 //                intent.putExtra("sms_body",smsText)
 //                startActivity(intent)
         implicit_button.setOnClickListener{
-            val location="geo:0,0?q=1600+Amphiteatre+Parkway,+Mountain+View,+california"
+            val location="Babbar akali market, Central town, Mandi road, Hargobind Nagar, Phagwara, Punjab 144401"
+            val location1="geo:0,0?q=1600+Amphiteatre+Parkway,+Mountain+View,+california"
             val intent=Intent(Intent.ACTION_VIEW)
             intent.data= Uri.parse(location)
             startActivity(intent)

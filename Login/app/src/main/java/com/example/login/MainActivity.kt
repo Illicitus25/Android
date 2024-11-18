@@ -15,6 +15,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.view.ContextMenu
+import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +30,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
         val username: EditText = findViewById<EditText>(R.id.username)
         val password: EditText = findViewById<EditText>(R.id.password)
         val btn: Button = findViewById<Button>(R.id.button)
@@ -61,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             R.id.search -> {
                 Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show()
                 return true
-            }
+                }
             R.id.home -> {
                 Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show()
                 return true

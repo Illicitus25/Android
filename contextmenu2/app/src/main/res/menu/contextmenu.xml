@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit"
+        android:title="edit"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/changeclr"
+        android:title="Change Colour"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="red"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/blue"
+                android:title="blue"
+                app:showAsAction="never"
+                />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Delete"
+        android:title="Delete"
+        app:showAsAction="never"
+        />
+</menu>

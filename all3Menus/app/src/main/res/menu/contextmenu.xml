@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/changimage"
+    android:title="Change Image"
+    app:showAsAction="never"
+    >
+        <menu>
+            <item
+                android:id="@+id/dog"
+                android:title="Dog"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/cat"
+                android:title="Cat"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/duck"
+                android:title="Duck"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>
